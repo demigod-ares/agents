@@ -25,7 +25,7 @@ openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
 anthropic_api_key = os.getenv("ANTHROPIC_API_KEY")
 DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 GROK_BASE_URL = "https://api.x.ai/v1"
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+os.getenv('GEMINI_BASE_URL')
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 ANTHROPIC_BASE_URL = "https://api.anthropic.com/v1"
 MAX_TURNS = 30

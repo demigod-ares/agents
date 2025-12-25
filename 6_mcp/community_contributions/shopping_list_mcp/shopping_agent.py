@@ -34,7 +34,7 @@ set_tracing_disabled(True)
 # Supports: Gemini (free), Groq (free), OpenAI, or custom gateway
 
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+os.getenv('GEMINI_BASE_URL')
 
 groq_api_key = os.getenv("GROQ_API_KEY")
 google_api_key = os.getenv("GOOGLE_API_KEY")

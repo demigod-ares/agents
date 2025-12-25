@@ -1,0 +1,186 @@
+{
+    "personal_info": {
+        "citizenship": "Indian",
+        "passport": "Indian",
+        "email": [
+            "professional.sid13@outlook.com",
+            "professional.sid13@gmail.com"
+        ],
+        "phone": [
+            "+91-8447447076",
+            "+91-8318432828"
+        ],
+        "linkdin": "https://www.linkedin.com/in/imsiddharthsingh",
+        "github": "https://github.com/demigod-ares"
+    },
+    "application_preferences": {
+        "total_experience": "5+ years experience",
+        "role_type": [
+            "Mid-Senior Level",
+            "Full stack developer",
+            "Software Engineer 2"
+        ],
+        "notice_period": "30 days",
+        "job type": "Full-time",
+        "workplace_type": [
+            "On-site",
+            "Remote",
+            "Hybrid"
+        ],
+        "relocation": true,
+        "locations": [
+            "Global"
+        ],
+        "government_employment": false
+    },
+    "summary": "Highly driven professional with extensive experience in conducting research, contributing to open-source projects, and developing solutions leveraging AI, IoT, and blockchain technologies. Skilled at building relationships and collaborating with cross-functional teams to deliver impactful solutions for complex business problems.",
+    "experience": [
+        {
+            "company": "JP Morgan Chase Co.",
+            "position": "Software Engineer 2",
+            "duration": "01/2024 - Present",
+            "location": "Mumbai",
+            "project": {
+                "name": "Reference Data Service (RDS) - Payments",
+                "description": "Internal application for business-critical data exchange between services via APIs, Kafka, MQ, and file I/O"
+            },
+            "key_achievements": [
+                "Security Overhaul: Eliminated 100% of SSAP/SonarQube vulnerabilities post-Java 17 upgrade, achieving 75% Sonar coverage",
+                "Kafka Infrastructure Leadership: Classified 50+ Kafka topics enabling role-based access for 15+ downstream systems",
+                "Tech Stack Modernization: Upgraded to Java 17 & GemFire, cutting deployment errors by 50% via Jenkins pipelines",
+                "API Scalability: Delivered 4+ Spring Boot microservices with 99.9% uptime",
+                "Cost & Efficiency: Automated 20+ cron jobs via Autosys, saving 40 hours/month"
+            ],
+            "roles_responsibilities": [
+                "Client requirements refinement and technical specification translation via JIRA",
+                "Agile methodology implementation including sprint planning and design discussions",
+                "API development/maintenance with comprehensive testing (unit, regression, E2E)",
+                "Code reviews, quality improvement, and CI/CD deployment management via Jenkins",
+                "Application ownership for enhancements and standardization"
+            ]
+        },
+        {
+            "company": "IBM India Pvt Ltd",
+            "position": "Application Developer",
+            "duration": "04/2021 – 10/2023",
+            "location": "Bangalore",
+            "project": {
+                "name": "Vinturas",
+                "description": "Blockchain-based ecosystem using Hyperledger Fabric"
+            },
+            "key_achievements": [
+                "Cost-Efficient Architecture: Reduced IKS logging costs by 35% via Rancher/Grafana monitoring",
+                "CI/CD Innovation: Accelerated deployment cycles by 40% for 10+ Dockerized microservices",
+                "Blockchain Advancements: Built 5+ EVM D-apps reducing transaction latency by 60%",
+                "Microservice Excellence: Containerized 15+ microservices with 99.8% test coverage"
+            ],
+            "roles_responsibilities": [
+                "Client interaction and requirements translation to technical specifications",
+                "Agile methodology implementation and technical design",
+                "API development and maintenance with full testing lifecycle",
+                "Documentation management using Swagger and version control via Bitbucket",
+                "Code review management and Concourse CI/CD pipeline monitoring"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "NIT Kurukshetra",
+            "role": "Researcher",
+            "duration": "07/2018 - 08/2020",
+            "location": "Haryana",
+            "thesis": "Advanced Optimization Techniques for Engineering Applications",
+            "research_areas": [
+                "Multi-period Dynamic Economic Dispatch",
+                "Energy Storage System integration",
+                "Power System observability via PMU technology",
+                "Transmission Network planning"
+            ],
+            "methodologies": [
+                "Non-Linear Programming",
+                "Mixed Integer NLP",
+                "Meta-heuristics",
+                "Machine Learning Algorithms"
+            ]
+        }
+    ],
+    "skills": {
+        "server_side": [
+            "NodeJS",
+            "NestJS",
+            "Jest",
+            "JAVA",
+            "Spring Boot",
+            "JUnit",
+            "Hibernate",
+            "Postman"
+        ],
+        "client_side": [
+            "TypeScript",
+            "JavaScript",
+            "Angular",
+            "React",
+            "Redux"
+        ],
+        "cloud_containers": [
+            "AWS",
+            "Azure",
+            "IBM Cloud",
+            "JPMC GAIA private cloud",
+            "Docker",
+            "Docker-compose",
+            "Kubernetes",
+            "Docker swarm"
+        ],
+        "databases_cache": [
+            "MySQL",
+            "Oracle",
+            "Postgre",
+            "Liquibase",
+            "CouchDB",
+            "MongoDB",
+            "Cassandra",
+            "Kafka",
+            "Zookeeper",
+            "IBM MQ",
+            "Gemfire",
+            "Redis"
+        ],
+        "ci_cd_automation": [
+            "Jenkins",
+            "Concourse",
+            "Shell scripting",
+            "Autosys",
+            "n8n.io"
+        ],
+        "management_frameworks": [
+            "Scaled Agile (SAFE)",
+            "LEAN",
+            "Agile",
+            "Scrum",
+            "Fast Works"
+        ],
+        "ai_assistant": [
+            "claude",
+            "kimi-dev",
+            "deepseek",
+            "gemini",
+            "copilot",
+            "chat-gpt"
+        ],
+        "ai/ml": [
+            "Python",
+            "NumPy",
+            "Pandas",
+            "Scikit-learn",
+            "Keras",
+            "TensorFlow",
+            "PyTorch"
+        ],
+        "data_processing": [
+            "Tableau",
+            "MS Excel",
+            "matplotlib"
+        ]
+    }
+}

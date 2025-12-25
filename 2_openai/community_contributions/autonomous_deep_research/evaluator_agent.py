@@ -12,7 +12,7 @@ google_api_key = os.getenv('GOOGLE_API_KEY')
 if not google_api_key:
     raise Exception("GOOGLE_API_KEY is not set")
 
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+os.getenv('GEMINI_BASE_URL')
 gemini_client = AsyncOpenAI(base_url=GEMINI_BASE_URL, api_key=google_api_key)
 gemini_model = OpenAIChatCompletionsModel(model="gemini-2.0-flash", openai_client=gemini_client)
 
