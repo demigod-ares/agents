@@ -6,7 +6,6 @@ import requests
 from pypdf import PdfReader
 import gradio as gr
 
-
 load_dotenv(override=True)
 
 def push(text):
@@ -18,7 +17,6 @@ def push(text):
             "message": text,
         }
     )
-
 
 def record_user_details(email, name="Name not provided", notes="not provided"):
     push(f"Recording {name} with email {email} and notes {notes}")
@@ -74,19 +72,18 @@ tools = [{"type": "function", "function": record_user_details_json},
 
 
 class Me:
-
     def __init__(self):
-        self.os.getenv('GEMINI_BASE_URL')
-        self.GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+        self.GEMINI_BASE_URL = os.getenv('GEMINI_BASE_URL')
+        self.GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY")
         self.openai = OpenAI(base_url=self.GEMINI_BASE_URL, api_key=self.GOOGLE_API_KEY)
-        self.name = "Harsh Patidar"
-        reader = PdfReader("me/linkedin.pdf")
+        self.name = "Siddharth Singh"
+        reader = PdfReader("CV-2025-JPMC.pdf")
         self.linkedin = ""
         for page in reader.pages:
             text = page.extract_text()
             if text:
                 self.linkedin += text
-        with open("me/summary.txt", "r", encoding="utf-8") as f:
+        with open("summary.txt", "r", encoding="utf-8") as f:
             self.summary = f.read()
 
 
@@ -118,7 +115,7 @@ If the user is engaging in discussion, try to steer them towards getting in touc
         messages = [{"role": "system", "content": self.system_prompt()}] + history + [{"role": "user", "content": message}]
         done = False
         while not done:
-            response = self.openai.chat.completions.create(model="gemini-2.5-flash-preview-05-20", messages=messages, tools=tools)
+            response = self.openai.chat.completions.create(model="models/gemini-flash-lite-latest", messages=messages, tools=tools)
             if response.choices[0].finish_reason=="tool_calls":
                 message = response.choices[0].message
                 tool_calls = message.tool_calls
@@ -132,5 +129,4 @@ If the user is engaging in discussion, try to steer them towards getting in touc
 
 if __name__ == "__main__":
     me = Me()
-    gr.ChatInterface(me.chat, type="messages").launch()
-    
+    gr.ChatInterface(me.chat).launch()
