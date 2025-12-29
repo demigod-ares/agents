@@ -70,7 +70,6 @@ record_unknown_question_json = {
 tools = [{"type": "function", "function": record_user_details_json},
         {"type": "function", "function": record_unknown_question_json}]
 
-
 class Me:
     def __init__(self):
         self.GEMINI_BASE_URL = os.getenv('GEMINI_BASE_URL')
@@ -125,7 +124,6 @@ If the user is engaging in discussion, try to steer them towards getting in touc
             else:
                 done = True
         return response.choices[0].message.content
-    
 
 if __name__ == "__main__":
     me = Me()
