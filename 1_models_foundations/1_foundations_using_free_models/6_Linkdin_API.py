@@ -18,7 +18,7 @@ if not username or not password:
 
 
 # %% 
-# Step 2: Defining the Robust Messenger Class
+# Step 2: Defining the Robust Client Class
 # A single connection object from LinkedIn API looks like this:
 # {'urn_id': 'ACoAACDZky4B2o7MraFVl12N2otH9zi03NF_YKo', 'distance': 'DISTANCE_1', 'jobtitle': 'IT Analyst at Tata consultancy services', 'location': 'New Delhi', 'name': 'VIPUL PANWAR'}
 class LinkedInClient:
@@ -98,8 +98,8 @@ if __name__ == "__main__":
     rate_limit_hit = False
     print(f"Starting bulk message campaign...")    
     # ACCOUNT BAN WARNING:Don't ever loop until no more connections or rate limit is hit
-    limit = 15  # Number of connections to fetch per batch
-    offset = 0   # Starting offset
+    limit = 100  # Number of connections to fetch per batch
+    offset = 400   # Starting offset
     try:
         # Fetch connections
         connections = client.get_connections(limit=limit, offset=offset)
@@ -108,7 +108,7 @@ if __name__ == "__main__":
         if not connections:
             print("No more connections to process. Stopping.")
         # Send messages to this batch
-        sent_count = messenger.send_personalized_bulk_messages(
+        sent_count = client.send_personalized_bulk_messages(
             connections=connections,
             message_template=message_template,
             delay=5  # 5 sec delay
