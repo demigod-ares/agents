@@ -135,6 +135,6 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     client = LinkedInClient(username, password)
     limit = 15  # Number of connections to fetch per batch
-    offset = 0  # Starting offset
+    offset = 10  # Starting offset
     jobs = client.get_jobs(limit=limit, offset=offset)
     print(f"Retrieved {len(jobs)} jobs. {jobs}")

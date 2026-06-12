@@ -3,35 +3,13 @@
         "citizenship": "Indian",
         "passport": "Indian",
         "email": [
-            "professional.sid13@outlook.com",
-            "professional.sid13@gmail.com"
+            "professional.sid13@outlook.com"
         ],
         "phone": [
-            "+91-8447447076",
-            "+91-8318432828"
+            "+91-8447447076"
         ],
         "linkdin": "https://www.linkedin.com/in/imsiddharthsingh",
         "github": "https://github.com/demigod-ares"
-    },
-    "application_preferences": {
-        "total_experience": "5+ years experience",
-        "role_type": [
-            "Mid-Senior Level",
-            "Full stack developer",
-            "Software Engineer 2"
-        ],
-        "notice_period": "30 days",
-        "job type": "Full-time",
-        "workplace_type": [
-            "On-site",
-            "Remote",
-            "Hybrid"
-        ],
-        "relocation": true,
-        "locations": [
-            "Global"
-        ],
-        "government_employment": false
     },
     "summary": "Highly driven professional with extensive experience in conducting research, contributing to open-source projects, and developing solutions leveraging AI, IoT, and blockchain technologies. Skilled at building relationships and collaborating with cross-functional teams to deliver impactful solutions for complex business problems.",
     "experience": [
@@ -128,7 +106,6 @@
             "IBM Cloud",
             "JPMC GAIA private cloud",
             "Docker",
-            "Docker-compose",
             "Kubernetes",
             "Docker swarm"
         ],
@@ -159,28 +136,6 @@
             "Agile",
             "Scrum",
             "Fast Works"
-        ],
-        "ai_assistant": [
-            "claude",
-            "kimi-dev",
-            "deepseek",
-            "gemini",
-            "copilot",
-            "chat-gpt"
-        ],
-        "ai/ml": [
-            "Python",
-            "NumPy",
-            "Pandas",
-            "Scikit-learn",
-            "Keras",
-            "TensorFlow",
-            "PyTorch"
-        ],
-        "data_processing": [
-            "Tableau",
-            "MS Excel",
-            "matplotlib"
         ]
     }
 }
