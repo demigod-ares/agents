@@ -15,6 +15,8 @@
     },
     "application_preferences": {
         "total_experience": "5+ years experience",
+        "current_compensation_ctc": "22,00,000 INR",
+        "expected_compensation_ctc": "30,00,000 INR",
         "role_type": [
             "Mid-Senior Level",
             "Full stack developer",
@@ -34,30 +36,42 @@
         ],
         "government_employment": false
     },
-    "summary": "Highly driven professional with extensive experience in conducting research, contributing to open-source projects, and developing solutions leveraging AI, IoT, and blockchain technologies. Skilled at building relationships and collaborating with cross-functional teams to deliver impactful solutions for complex business problems.",
+    "summary": "Software Development Engineer with experience building cloud-native data platforms, deployment automation, and enterprise-grade backend services across Consumer Card, Liquidity Technology and Supply Chain. Skilled in AWS, Terraform, Apache Airflow, PySpark, Java, Spring Boot, CI/CD, observability, and production resilience.",
     "experience": [
         {
             "company": "JP Morgan Chase Co.",
-            "position": "Software Engineer 2",
-            "duration": "01/2024 - Present",
+            "position": "Software Developement Engineer 2",
+            "duration": "04/2025 - Present",
             "location": "Mumbai",
-            "project": {
-                "name": "Reference Data Service (RDS) - Payments",
-                "description": "Internal application for business-critical data exchange between services via APIs, Kafka, MQ, and file I/O"
-            },
+            "project": "CDAI - Consumer & Community Banking Technology - Consumer Card Technology, Card Data Product",
             "key_achievements": [
-                "Security Overhaul: Eliminated 100% of SSAP/SonarQube vulnerabilities post-Java 17 upgrade, achieving 75% Sonar coverage",
-                "Kafka Infrastructure Leadership: Classified 50+ Kafka topics enabling role-based access for 15+ downstream systems",
-                "Tech Stack Modernization: Upgraded to Java 17 & GemFire, cutting deployment errors by 50% via Jenkins pipelines",
-                "API Scalability: Delivered 4+ Spring Boot microservices with 99.9% uptime",
-                "Cost & Efficiency: Automated 20+ cron jobs via Autosys, saving 40 hours/month"
-            ],
-            "roles_responsibilities": [
-                "Client requirements refinement and technical specification translation via JIRA",
-                "Agile methodology implementation including sprint planning and design discussions",
-                "API development/maintenance with comprehensive testing (unit, regression, E2E)",
-                "Code reviews, quality improvement, and CI/CD deployment management via Jenkins",
-                "Application ownership for enhancements and standardization"
+                "Led engineering delivery for Consumer Card data product platforms, converting product and business requirements into scalable cloud-native services, data workflows, and deployment automation that improved delivery predictability, operational resilience, and stakeholder confidence.",
+                "Built and maintained AWS cloud infrastructure using Terraform, enabling repeatable environment provisioning, stronger configuration control, reduced environment drift, and faster onboarding of new application components across development and test environments.",
+                "Designed and operated Apache Airflow and PySpark-based data workflows supporting card data processing, data product enablement, and downstream consumption needs, improving pipeline reliability, data freshness, and SLA adherence.",
+                "Contributed to data marketplace enablement by supporting reusable data product patterns, improving discoverability, controlled access, and consumption of curated Consumer Card datasets by downstream teams.",
+                "Implemented Release Orchestrator-based deployment automation to coordinate multi-component releases across application/service IDs, enabling controlled Stop/Deploy/Start sequencing and reducing manual release execution effort by 70%.",
+                "Standardized deployment patterns using Spinnaker, Jules, AAAS/AIM-integrated workflows, and Release Orchestrator, improving release consistency, reducing coordination overhead, and increasing deployment confidence across environments.",
+                "Advanced adoption of TrueCD testing and release automation practices, helping shift quality left, strengthen production readiness, reduce late-cycle defects, and support faster delivery without compromising controls or software quality.",
+                "Improved observability and operational support using Dynatrace and Splunk, creating dashboards, alerts, and investigation workflows that reduced mean time to detect and recover from incidents by 82%.",
+                "Partnered with product owners, QA, platform engineering, and application teams to manage dependencies, refine delivery scope, prioritize backlog items, and deliver production-ready capabilities aligned with Consumer Card business priorities.",
+                "Strengthened engineering governance by improving CI/CD hygiene, deployment readiness checks, runbooks, and operational playbooks, reducing recurring production support effort and improving auditability of release activities."
+            ]
+        },
+        {
+            "company": "JP Morgan Chase Co.",
+            "position": "Software Developement Engineer",
+            "duration": "01/2024 - 03/2025",
+            "location": "Mumbai",
+            "project": "RDS - Commercial & Investment Bank Technology - Payments Technology, Global Liquidity & Cash Management / Liquidity Services",
+            "key_achievements": [
+                "Developed and supported backend services using Java and Spring Boot for liquidity and cash management platforms, contributing to reliable payment and liquidity processing capabilities for institutional clients achieving 99.99% uptime.",
+                "Built and enhanced service integrations supporting Global Liquidity & Cash Management workflows, improving transaction processing reliability, reducing operational exceptions, and supporting business-critical liquidity services.",
+                "Automated batch schedules and dependency-driven processing using Autosys, improving job execution reliability, reducing manual interventions, and helping meet time-sensitive operational SLAs.",
+                "Supported CI/CD and deployment processes through Jules, improving deployment repeatability, reducing release coordination effort, and enabling safer application changes across environments.",
+                "Investigated production issues across services, jobs, and integration points, delivering root-cause fixes and operational improvements that reduced repeat incidents and improved platform stability.",
+                "Collaborated with business analysts, operations users, QA, and application teams to clarify requirements, validate implementation behavior, and ensure production readiness for liquidity platform enhancements.",
+                "Tech Stack Modernization & Security Overhaul: Eliminated 100% of SSAP/SonarQube vulnerabilities post Java, Springboot and React version upgrade, achieving 75% Sonar coverage",
+                "Kafka Infrastructure Leadership: Classified 50+ Kafka topics enabling role-based access for 15+ downstream systems"
             ]
         },
         {
@@ -65,43 +79,12 @@
             "position": "Application Developer",
             "duration": "04/2021 – 10/2023",
             "location": "Bangalore",
-            "project": {
-                "name": "Vinturas",
-                "description": "Blockchain-based ecosystem using Hyperledger Fabric"
-            },
+            "project": "Vinturas - Private Blockchain (Hyperledger Fabric) based supply chain ecosystem",
             "key_achievements": [
                 "Cost-Efficient Architecture: Reduced IKS logging costs by 35% via Rancher/Grafana monitoring",
                 "CI/CD Innovation: Accelerated deployment cycles by 40% for 10+ Dockerized microservices",
                 "Blockchain Advancements: Built 5+ EVM D-apps reducing transaction latency by 60%",
                 "Microservice Excellence: Containerized 15+ microservices with 99.8% test coverage"
-            ],
-            "roles_responsibilities": [
-                "Client interaction and requirements translation to technical specifications",
-                "Agile methodology implementation and technical design",
-                "API development and maintenance with full testing lifecycle",
-                "Documentation management using Swagger and version control via Bitbucket",
-                "Code review management and Concourse CI/CD pipeline monitoring"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "NIT Kurukshetra",
-            "role": "Researcher",
-            "duration": "07/2018 - 08/2020",
-            "location": "Haryana",
-            "thesis": "Advanced Optimization Techniques for Engineering Applications",
-            "research_areas": [
-                "Multi-period Dynamic Economic Dispatch",
-                "Energy Storage System integration",
-                "Power System observability via PMU technology",
-                "Transmission Network planning"
-            ],
-            "methodologies": [
-                "Non-Linear Programming",
-                "Mixed Integer NLP",
-                "Meta-heuristics",
-                "Machine Learning Algorithms"
             ]
         }
     ],
@@ -114,24 +97,27 @@
             "Spring Boot",
             "JUnit",
             "Hibernate",
-            "Postman"
+            "Postman",
+            "Microservices"
         ],
         "client_side": [
             "TypeScript",
             "JavaScript",
             "Angular",
             "React",
-            "Redux"
+            "Redux",
+            "Micro-frontend"
         ],
         "cloud_containers": [
-            "AWS",
+            "AWS (Lambda, S3, Glue, SQS, Cloudwatch), ",
             "Azure",
-            "IBM Cloud",
-            "JPMC GAIA private cloud",
+            "Terraform",
             "Docker",
             "Kubernetes",
             "Docker swarm"
         ],
+        "data_engineering": ["Apache airflow", "Pyspark"],
+        "observability_&_monitoring": ["Splunk", "Dynatrace"],
         "databases_cache": [
             "MySQL",
             "Oracle",
